@@ -74,12 +74,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $active_group = 'sqlsrv_73';
 $query_builder = TRUE;
 
-$db['sqlsrv_73'] = array(
+$db['sqlsrv'] = array(
 	'dsn'	=> '',
-	'hostname' => '10.33.41.73',
+	'hostname' => '127.0.0.1',
 	'username' => 'sa',
-	'password' => 'hilapdeui',
-	'database' => 'DB_NEWMIDPOS',
+	'password' => 'sa',
+	'database' => 'DBPOS',
 	'dbdriver' => 'sqlsrv',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
