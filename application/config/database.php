@@ -71,7 +71,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | the query builder class.
 */
 //$active_group = 'default';
-$active_group = 'sqlsrv_73';
+$active_group = 'sqlsrv';
 $query_builder = TRUE;
 
 $db['sqlsrv'] = array(
